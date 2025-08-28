@@ -1,0 +1,83 @@
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-justify: auto;
+    text-indent: 0;
+}
+body {
+    background-image: url(./black-chalkboard-word-menu-background-600nw-2456774365.webp);
+    background-repeat: repeat;
+    background-size: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+div#content {
+    margin: 20px auto;
+    padding: 20px;
+    margin: 0 auto;
+    width: auto;
+    background-color: rgb(20, 17, 17);
+
+s
+#content, h1, p, .horizontal-list {
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    padding: 8px 16px;
+    margin-bottom: 16px;
+}
+
+
+h1 {
+    font-size: xx-large;
+    color: rgb(234, 234, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px lightblue;
+    color: white;
+    background-color: white;
+    font-size: xxx-large;
+    text-shadow: 2px 2px lightblue;
+    background-origin: border-box;
+}
+
+p {
+    text-align: center;
+    text-justify: auto;
+    text-indent: 0;
+    color: white;
+}
+}
+ul.horizontal-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+ul.horizontal-list li {
+    margin: 0 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li {
+    margin: 10px 0;
+    border-radius: 10%;
+    border-color: rgb(235, 241, 229);
+    border-style: solid;
+    border-width: 2px;
+    text-size-adjust: xx-large;
+    font-size: xx-large;
+    color: white;
+}
+horizonat-list {
+    background-color: white;
+    border-radius: 10%;
+    padding: 24px 20px;
+    transition: box-shadow 0.4s;
+    color: white;
+    border: 10px solid white;
+}
