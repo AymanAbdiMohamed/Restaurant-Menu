@@ -51,11 +51,19 @@ p {
     color: rgb(234, 234, 234);
 }
 
-ul.horizontal-list {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
+.horizontal-list > li {
+    background: rgba(20, 17, 17, 0.85); /* dark box for contrast */
+    border-radius: 16px;                 /* rounded edges */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    padding: 24px 18px;
+    min-width: 220px;
+    margin: 0 15px;
+    color: #fff;
+    border: 2px solid #fff2;
+    transition: box-shadow 0.2s;
+
+
+
 ul.horizontal-list li {
     margin: 0 15px;
 }
@@ -81,3 +89,11 @@ horizonat-list {
     color: white;
     border: 10px solid white;
 }
+.horizontal-list {
+    background-color: white;
+    border-radius: 0%;
+    padding: 24px 20px;
+    transition: box-shadow 0.4s;
+    color: white;
+    border: 10px solid white;
+}}
