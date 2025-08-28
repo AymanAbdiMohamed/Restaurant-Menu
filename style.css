@@ -6,11 +6,11 @@ html {
     text-indent: 0;
 }
 body {
-    background-image: url(./black-chalkboard-word-menu-background-600nw-2456774365.webp);
     background-repeat: repeat;
     background-size: 50vh;
     background-attachment: fixed;
     background-position: center;
+    background-color: rgb(8, 72, 109);
 }
 div#content {
     margin: 20px auto;
@@ -18,8 +18,8 @@ div#content {
     margin: 0 auto;
     width: auto;
     background-color: rgb(20, 17, 17);
+}
 
-s
 #content, h1, p, .horizontal-list {
     background: rgba(255, 255, 255, 0.45);
     border-radius: 10px;
@@ -30,6 +30,7 @@ s
 
 
 h1 {
+    position: relative;
     font-size: xx-large;
     color: rgb(234, 234, 241);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,16 +42,15 @@ h1 {
     background-color: white;
     font-size: xxx-large;
     text-shadow: 2px 2px lightblue;
-    background-origin: border-box;
 }
 
 p {
     text-align: center;
     text-justify: auto;
     text-indent: 0;
-    color: white;
+    color: rgb(234, 234, 234);
 }
-}
+
 ul.horizontal-list {
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ ul {
 ul li {
     margin: 10px 0;
     border-radius: 10%;
-    border-color: rgb(235, 241, 229);
+    border-color: rgb(254, 252, 252);
     border-style: solid;
     border-width: 2px;
     text-size-adjust: xx-large;
@@ -75,7 +75,7 @@ ul li {
 }
 horizonat-list {
     background-color: white;
-    border-radius: 10%;
+    border-radius: 0%;
     padding: 24px 20px;
     transition: box-shadow 0.4s;
     color: white;

@@ -1,3 +1,4 @@
+/* Reset and base styles */
 html, body {
     margin: 0;
     padding: 0;
@@ -6,13 +7,16 @@ html, body {
     min-height: 100vh;
 }
 
+/* Chalkboard background for food shop menu */
 body {
+    background-image: url('./black-chalkboard-word-menu-background-600nw-2456774365.webp');
     background-repeat: repeat;
     background-size: 50vh;
     background-attachment: fixed;
     background-position: center;
 }
 
+/* Content container styling */
 #content {
     margin: 20px auto;
     padding: 20px;
@@ -22,6 +26,7 @@ body {
     box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
 
+/* Overlay for readability */
 #content, h1, p, .horizontal-list {
     background: rgba(0,0,0,0.45);
     border-radius: 10px;
@@ -30,6 +35,7 @@ body {
     margin-bottom: 16px;
 }
 
+/* Heading styles */
 h1 {
     text-align: center;
     margin-top: 40px;
@@ -47,11 +53,12 @@ h1 {
 
 p {
     text-align: center;
-    font-size: xxx-large;
+    font-size: 1.3em;
     margin-bottom: 30px;
-    color: #7a5311;
+    color: #eee;
 }
 
+/* Menu layout */
 .horizontal-list {
     display: flex;
     justify-content: center;
@@ -102,11 +109,9 @@ p {
     text-shadow: 1px 1px 2px #000;
 }
 
-@media (max-width: 768px) {
-        body {
-            font-size: 16px;
-        }
-        .container {
-            flex-direction: column;
-        }
-}
+/* Responsive for mobile */
+@media (max-width: 900px) {
+    .horizontal-list {
+        flex-direction: column;
+        align-items: center;
+        gap:
